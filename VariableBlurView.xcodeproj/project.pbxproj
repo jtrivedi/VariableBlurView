@@ -19,6 +19,8 @@
 		F7E942AE2A24F7C8007DC5B7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F7E942B02A24F7CA007DC5B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7E942B32A24F7CA007DC5B7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F7E942BC2A24F7F3007DC5B7 /* VariableBlurView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VariableBlurView-Bridging-Header.h"; sourceTree = "<group>"; };
+		F7E942BD2A24F7F3007DC5B7 /* CAFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAFilter.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,8 @@
 			children = (
 				F7E942AC2A24F7C8007DC5B7 /* VariableBlurViewApp.swift */,
 				F7E942AE2A24F7C8007DC5B7 /* ContentView.swift */,
+				F7E942BD2A24F7F3007DC5B7 /* CAFilter.h */,
+				F7E942BC2A24F7F3007DC5B7 /* VariableBlurView-Bridging-Header.h */,
 				F7E942B02A24F7CA007DC5B7 /* Assets.xcassets */,
 				F7E942B22A24F7CA007DC5B7 /* Preview Content */,
 			);
@@ -99,6 +103,7 @@
 				TargetAttributes = {
 					F7E942A82A24F7C8007DC5B7 = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -264,6 +269,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VariableBlurView/Preview Content\"";
@@ -283,6 +289,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.janumtrivedi.VariableBlurView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VariableBlurView/VariableBlurView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -293,6 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"VariableBlurView/Preview Content\"";
@@ -312,6 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.janumtrivedi.VariableBlurView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "VariableBlurView/VariableBlurView-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
